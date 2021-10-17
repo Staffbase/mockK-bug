@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 
 typealias StringProviderType = Provider<String>
 
-class GenericHinter {
+class GenericHinterTest {
 
     @Test
     fun `auto hints do not work`() {
