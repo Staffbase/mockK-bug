@@ -13,6 +13,7 @@ repositories {
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(16))
+        implementation.set(JvmImplementation.J9)
     }
 }
 
